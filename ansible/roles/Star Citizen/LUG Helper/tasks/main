@@ -1,0 +1,13 @@
+---
+
+- name: Git checkout
+  ansible.builtin.git:
+    repo: 'https://github.com/starcitizen-lug/lug-helper.git'
+    dest: "{{ game_dir }}/lug-helper"
+    # version: v1.21
+
+- name: run
+  command: sh lug-helper.sh
+  args:
+    chdir: "{{ game_dir }}/lug-helper"
+    creates: /usr/bin/docker

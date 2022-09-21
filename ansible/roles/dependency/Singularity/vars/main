@@ -1,0 +1,2 @@
+---
+singularity_dir: "/home/{{ ansible_user }}/.uni/Singularity"

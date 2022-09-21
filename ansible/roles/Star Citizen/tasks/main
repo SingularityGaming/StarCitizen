@@ -1,0 +1,5 @@
+---
+- name: Create Singularity game - Star Citizen
+  ansible.builtin.file:
+    path: "{{ game_dir }}"
+    state: directory

@@ -1,0 +1,2 @@
+---
+game_dir: "{{ singularity_dir }}/game/Star Citizen"

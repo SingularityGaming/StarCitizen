@@ -1,0 +1,6 @@
+---
+dependencies:
+- role: dependency/Singularity
+- role: dependency/Lutris
+- role: vm.max_map_count
+- { role: Star Citizen/LUG Helper, when: lug_helper == true }
