@@ -1,0 +1,6 @@
+[submodule "dependency/Lutris"]
+	path = dependency/Lutris
+	url = https://github.com/Singularity-Coin/Lutris.git
+[submodule ".dependency/Lutris"]
+	path = .dependency/Lutris
+	url = https://github.com/Singularity-Coin/Lutris.git
